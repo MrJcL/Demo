@@ -13,7 +13,7 @@ import java.util.*;
 public class ExcelTest {
 
     /**
-     * 生成excel 03
+     * 生成excel 03-07
      * @throws Exception
      */
     @Test
@@ -38,7 +38,7 @@ public class ExcelTest {
     }
 
     /**
-     * 生成excel 07
+     * 生成excel 10
      * @throws Exception
      */
     @Test
@@ -62,4 +62,35 @@ public class ExcelTest {
         }
     }
 
+    /**
+     * 读取excel 03-07
+     * @throws Exception
+     */
+    @Test
+    public void test3() throws Exception {
+        ExcelUtil excel = new ExcelUtil();
+        String fileName = "C:\\2019\\02\\19\\21\\测试-201902192115911.xls";
+        List<Map<String, Object>> listmap = excel.readExcel(fileName);
+        if(listmap!=null){
+            for (Map<String, Object> map: listmap) {
+                System.out.println(map.toString());
+            }
+        }
+    }
+
+    /**
+     * 读取excel 10
+     * @throws Exception
+     */
+    @Test
+    public void test4() throws Exception {
+        ExcelUtil excel = new ExcelUtil();
+        String fileName = "C:\\2019\\02\\19\\21\\测试-201902192115476.xlsx";
+        List<Map<String, Object>> listmap = excel.readExcel(fileName);
+        if(listmap!=null){
+            for (Map<String, Object> map: listmap) {
+                System.out.println(map.toString());
+            }
+        }
+    }
 }
