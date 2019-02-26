@@ -1,4 +1,4 @@
-package common;
+package com.common.service;
 
 /**
  * @program: Demo
