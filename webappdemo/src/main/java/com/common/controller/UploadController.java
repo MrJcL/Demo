@@ -31,9 +31,9 @@ public class UploadController {
         System.out.println("exec");
         try{
             List<FileForm> fileForms = this.uploadService.uploadFiles(request);
-            System.out.println(fileForms.toString());
         }catch (Exception e){
             e.printStackTrace();
+            return "error";
         }
         return "success";
     }
