@@ -88,4 +88,42 @@ public class Test1 {
         System.out.println(++j);
 
     }
+
+    @Test
+    public void t8(){
+        Double a = new Double(0.1);
+        Double a2 = new Double(0.2);
+        Double a3 = new Double(0.3);
+        Double a4 = new Double(0.4);
+        Double a5 = new Double(0.5);
+        Double a6 = new Double(0.6);
+        Double a7 = new Double(0.7);
+        Double a8 = new Double(0.8);
+        Double a9 = new Double(0.9);
+        Double b = new Double(20014999);
+        double b1 = 20014999;
+
+        System.out.println(a);
+        System.out.println(a2);
+        System.out.println(a3);
+        System.out.println(a4);
+        System.out.println(a5);
+        System.out.println(a6);
+        System.out.println(a7);
+        System.out.println(a8);
+        System.out.println(a9);
+        System.out.println(b);
+        System.out.println(b1);
+    }
+
+    @Test
+    public void t9() {
+        int a = 0x39;
+        System.out.println(a);
+        System.out.println(Integer.toBinaryString(a));
+        int b = 011;
+        System.out.println(b);
+        System.out.println(Integer.toBinaryString(b));
+    }
+
 }

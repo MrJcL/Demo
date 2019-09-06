@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @program: Demo
  * @Date: 2019/3/21 23:44
  * @Author: JcLi
- * @Description:
+ * @Description: 选择排序
  */
 public class SelectionSort {
 

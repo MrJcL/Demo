@@ -10,7 +10,7 @@ import java.util.List;
  * @program: Demo
  * @Date: 2019/3/21 21:51
  * @Author: JcLi
- * @Description:
+ * @Description: 冒泡排序
  */
 public class BubbleSort {
 
